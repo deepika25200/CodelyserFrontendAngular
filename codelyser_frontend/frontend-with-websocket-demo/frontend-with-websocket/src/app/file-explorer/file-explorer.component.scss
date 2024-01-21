@@ -1,0 +1,160 @@
+.filex{
+  background-color: yellowgreen;
+}
+.example-tree-invisible{
+    display: none;
+}
+
+.example-tree{
+  background-color: rgb(20, 12, 12);
+}
+.example-tree ul,
+.example-tree li{
+    margin-top: 0;
+    margin-bottom: 0;
+    list-style-type: none;
+}
+
+.mat-tree-node {
+  font-size: 14px; 
+  background-color: rgb(20, 12, 12);
+  color: white;
+  font-weight: 500;
+}
+
+// this padding sets alignment of nested nodes
+
+.example-tree .mat-nested-tree-node div[role=group]{
+    padding-left: 40px;
+}
+
+.example-tree div[role=group] > .mat-tree-node{
+    padding-left: 40px;
+}
+.btn{
+    background-color:rgb(20, 12, 12);
+    border:none;
+    width: 25px;
+    cursor: pointer;
+    
+}
+
+
+.mat-sidenav-container{
+    height: calc(205vh - 115vh);
+    background-color:  rgb(20, 12, 12);
+   // overflow: hidden;
+}
+mat-sidenav{
+    width: 200px;
+    //background-color: #eee;
+    background-color:  rgb(20, 12, 12);   //bg color of whole file-explorer
+}
+.mat-icon-rtl-mirror{
+    color: white;
+   
+    
+}
+
+.example-container {
+    display: flex;
+    height: 100vh; /* Adjust the height as needed */
+  }
+  
+  p{
+    font-family: 200;
+    background-color: rgb(86, 80, 80);
+    font-size: 15px;
+    color: white;
+  }
+  .main-container {
+    display: flex;
+    flex-direction: row;
+   // height: 100%;
+   // overflow: hidden;
+  }
+  
+  .item1 {
+    flex: 1;
+    //padding: 16px; /* Adjust padding as needed */
+  //  border: 1px solid #ccc; /* Optional: Add borders for visual separation */
+    background-color: rgb(27, 19, 19);
+   
+  }
+
+
+  .editor-header {
+    background-color: #333; /* Set the background color */
+    color: white; /* Set the text color */
+    padding: 10.5px; /* Add padding for better visibility */
+    font-size: 13px; /* Adjust font size as needed */
+  }
+  
+  .close-btn{
+    border: none;
+
+  }
+  .item2 {
+    flex: 1;
+    padding: 16px; /* Adjust padding as needed */
+   // border: 1px solid #ccc; /* Optional: Add borders for visual separation */
+    background-color: white;
+  }
+
+  
+  .mat-icon{
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 500,
+  'GRAD' 0,
+  'opsz' 30
+}
+  }
+
+//  code editor
+  .col {
+    flex: 1;
+    margin-left: 10px;
+  }
+  
+  .editor-container {
+    flex: 1;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    margin-top: 10px;
+    padding: 10px;
+    min-height: 400px; /* Set a minimum height to ensure visibility */
+  }
+  
+  .bg-dark {
+    background-color: #349aff;
+  }
+  
+  .rounded {
+    border-radius: 0.25rem;
+  }
+  
+  .p-2 {
+    padding: 0.5rem;
+  }
+  
+  .justify-content-between {
+    justify-content: space-between;
+  }
+  
+  .w-25 {
+    width: 25%;
+  }
+  
+  .btn {
+    margin-right: 5px;
+  }
+
+
+  .btn-success {
+    margin-top: 10px;
+  }
+  
+    
+  

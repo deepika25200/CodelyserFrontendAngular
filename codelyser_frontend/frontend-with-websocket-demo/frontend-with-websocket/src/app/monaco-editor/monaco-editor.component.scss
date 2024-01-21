@@ -1,0 +1,78 @@
+    // .col {
+  //   flex: 1;
+  //   // margin-left: 10px;
+  // //  justify-content: space-aroud;
+  //   margin-top: 2px;
+  //   padding-top: 10px;
+  //   padding-bottom: 10px;
+  //   padding-left: 10px;
+  //   justify-content: flex-end;
+  //   background-color: purple;
+  // }
+  
+  .editor-container {
+    flex: 1;
+    border: 2px solid #06080b;
+    border-radius: 0.25rem;
+    margin-top: 5px;
+    padding: 10px;
+    min-height: 400px; /* Set a minimum height to ensure visibility */
+  }
+
+
+  .d-flex{
+  //  display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+  }
+  
+  .btn {
+    /* Use Bootstrap styles for btn class */
+    padding: 10px 20px; /* Adjust padding as needed */
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px; /* Adjust font size as needed */
+    margin-right: 10px; /* Add spacing between buttons */
+  }
+  
+  .btn:last-child {
+    margin-right: 0; /* Remove right margin for the last button */
+  }
+  
+  .btn-primary {
+    /* Bootstrap styles for btn-primary class */
+    background-color: #007bff; /* Blue background color for primary */
+    color: #fff; /* White text color */
+    
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  .btn-success {
+    /* Bootstrap styles for btn-success class */
+    background-color: #28a745; /* Green background color for success */
+    color: #fff; /* White text color */
+  }
+  
+  .btn-success:hover {
+    background-color: #218838; /* Darker green on hover */
+  }
+  
+  .bg-dark {
+    background-color: #000000;
+  }
+  
+  .rounded {
+    border-radius: 0.25rem;
+  }
+  
+  .p-2 {
+    padding: 0.5rem;
+  }
+  
+  .justify-content-between {
+    justify-content: space-between;
+  }
+  
